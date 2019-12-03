@@ -18,7 +18,7 @@ def reduce(array, starting_value = nil)
     running_total = 0 
   end   
   while i < array.length
-    (running_total += array[i])
+    yield(running_total, array[i])
     i += 1 
     #binding.pry 
   end 
