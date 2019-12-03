@@ -20,7 +20,7 @@ def reduce(array, starting_value = nil)
     i = 1 
   end   
   while i < array.length
-    yield(running_total, array[i])
+   running_total = yield(running_total, array[i])
     i += 1 
     #binding.pry 
   end 
