@@ -10,7 +10,7 @@ def map(array)
   my_array 
 end  
 
-def reduce(array, starting_value = nil)
+def reduce(array, starting_value = 0)
    #if starting_value  
     #running_total = starting_value
     #i = 0 
