@@ -11,9 +11,10 @@ def map(array)
 end  
 
 def reduce(array, starting_value = nil)
-  i = 0 
+   
   if starting_value  
     running_total = starting_value
+    i = 0 
   else 
     running_total = array[0]
     i = 1 
