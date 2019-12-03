@@ -25,7 +25,7 @@ def reduce(array, starting_value = nil)
   #end 
   #running_total
   
-array.reduce(starting_value)  
+array.reduce(starting_value) { |sum, num|  
 end   
   
   
